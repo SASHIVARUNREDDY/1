@@ -5,12 +5,12 @@ int main() {
     scanf("%lf", &n1);
     if (n1 <= 0.0) {
         if (n1 == 0.0)
-            printf("You entered 0.");
+            printf("It is a 0.");
         else
-            printf("You entered a negative number.");
+            printf("A negative number.");
     } 
     else
-        printf("You entered a positive number.");
+        printf("A positive number.");
     return 0;
 }
 
